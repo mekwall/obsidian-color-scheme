@@ -22,6 +22,8 @@ Choose your format:
 
 ![PHP](https://github.com/mekwall/obsidian-color-scheme/raw/master/webide/screenshots/php.png "PHP")
 
+![Python](https://github.com/mekwall/obsidian-color-scheme/raw/master/webide/screenshots/python.png "Python")
+
 ![SQL](https://github.com/mekwall/obsidian-color-scheme/raw/master/webide/screenshots/sql.png "SQL")
 
 ![Yaml](https://github.com/mekwall/obsidian-color-scheme/raw/master/webide/screenshots/yaml.png "Yaml")
@@ -31,3 +33,5 @@ Choose your format:
 ![Diff](https://github.com/mekwall/obsidian-color-scheme/raw/master/webide/screenshots/diff.png "Diff")
 
 ![Regexp](https://github.com/mekwall/obsidian-color-scheme/raw/master/webide/screenshots/regexp.png "Regexp")
+
+![Surface](https://github.com/mekwall/obsidian-color-scheme/raw/master/webide/screenshots/surface.png "Surface")
