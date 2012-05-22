@@ -2,8 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>author</key>
-	<string>Marcus Ekwall</string>
+  <key>author</key>
+  <string>Marcus Ekwall</string>
     <key>name</key>
     <string>Obsidian</string>
     <key>version</key>
@@ -28,31 +28,31 @@
             </dict>
         </dict>
         <dict>
-			<key>name</key>
-			<string>Text base</string>
-			<key>scope</key>
-			<string>text</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#293134</string>
-				<key>foreground</key>
-				<string>#E0E2E4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Source base</string>
-			<key>scope</key>
-			<string>source</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#293134</string>
-				<key>foreground</key>
-				<string>#E0E2E4</string>
-			</dict>
-		</dict>
+      <key>name</key>
+      <string>Text base</string>
+      <key>scope</key>
+      <string>text</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#293134</string>
+        <key>foreground</key>
+        <string>#E0E2E4</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Source base</string>
+      <key>scope</key>
+      <string>source</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#293134</string>
+        <key>foreground</key>
+        <string>#E0E2E4</string>
+      </dict>
+    </dict>
         <dict>
             <key>name</key>
             <string>Comment</string>
