@@ -1,0 +1,191 @@
+/**********************************************/
+/* Layout
+/**********************************************/
+#elements-content.source-code {
+  font-family: Consolas;
+  background: #283033 !important;
+  font-size: 14px !important;
+}
+
+#elements-content .highlight {
+}
+
+#elements-content .selection {
+  background-color: #404E51 !important;
+}
+
+#elements-content .selection.selected {
+  background-color: #404E51 !important;
+}
+
+#elements-content .parent {
+
+}
+
+/*.outline-disclosure ol:focus li.parent.expanded.selected::before*/
+#elements-content .outline-disclosure li.parent::before,
+#elements-content .outline-disclosure ol:focus li.parent.expanded.selected::before {
+  background: none !important;
+  content: '' !important;
+}
+
+#elements-content .selected {
+  background-color: #404E51 !important;
+}
+
+#elements-content .parent.selected {
+  background-color: #404E51 !important;
+}
+
+#elements-content .parent.expanded {
+
+}
+
+#elements-content .parent::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+  position: relative;
+  z-index: 999;
+}
+
+#elements-content .parent.expanded::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+#elements-sidebar .styles-section .properties li.parent::before,
+#elements-sidebar .section > .header::before,
+#elements-sidebar .properties-tree li.parent::before,
+#elements-sidebar .event-bars .event-bar .header::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+#elements-sidebar .styles-section .properties li.parent.expanded::before,
+#elements-sidebar .section.expanded > .header::before,
+#elements-sidebar .properties-tree li.parent.expanded::before,
+#elements-sidebar .event-bars .event-bar.expanded .header::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+/**********************************************/
+/* HTML
+/**********************************************/
+#elements-content .webkit-html-comment {
+  color: #66747B !important;
+}
+
+#elements-content .webkit-html-doctype {
+  color: #557182 !important;
+}
+
+#elements-content .webkit-html-tag {
+  color: #557182 !important;
+}
+
+#elements-content .webkit-html-tag-name {
+  color: #8CBBAD !important;
+}
+
+#elements-content .webkit-html-attribute {
+  color: #B3B689 !important;
+}
+
+#elements-content .webkit-html-attribute-name {
+  color: #B3B689 !important;
+}
+
+#elements-content .webkit-html-attribute-value {
+  color: #E8E2B7 !important;
+}
+
+#elements-content .webkit-html-external-link {
+  color: #EC7600 !important;
+} 
+
+#elements-content .webkit-html-resource-link {
+  color: #FFCD22 !important;
+  text-decoration: none;
+}
+
+#elements-content .webkit-html-text-tag {
+  color: #E0E2E4 !important;
+}
+
+#elements-content .webkit-html-text-node {
+  color: #E0E2E4 !important;
+}
+
+#elements-content .webkit-html-css-node {
+  color: #E0E2E4 !important;
+}
+
+#elements-content .webkit-html-js-node {
+  color: #E0E2E4 !important;
+}
+
+
+/**********************************************/
+/* CSS
+/**********************************************/
+
+#elements-content .webkit-css-comment {
+  color #66747B !important;
+}
+
+#elements-content .webkit-css-url {
+  color: #EC7600 !important;
+}
+
+#elements-content .webkit-css-color {
+  color: #E0E2E4 !important;
+}
+
+#elements-content .webkit-css-selector {
+  color: #93C763 !important;
+} 
+
+#elements-content .webkit-css-property {
+  color: #668BB0 !important;
+}
+
+#elements-content .webkit-css-number {
+  color: #FFCD22 !important;
+}
+
+#elements-content .webkit-css-keyword {
+  color: #B6C8DA !important;
+}
+
+#elements-content .webkit-css-string {
+  color: #F0F0F0 !important;
+}
+
+#elements-content .webkit-css-important {
+  color: #C64B4D !important;
+}
+
+
+/**********************************************/
+/* JavaScript
+/**********************************************/
+#elements-content .webkit-javascript-comment {
+  color: #6C788C !important;
+}
+
+#elements-content .webkit-javascript-keyword {
+  color: #93C763 !important;
+}
+
+#elements-content .webkit-javascript-ident {
+  color: #d97640 !important;
+}
+
+#elements-content .webkit-javascript-string {
+  color: #EC7600 !important;
+}
+
+#elements-content .webkit-javascript-number {
+  color: #FFCD22 !important;
+}
+
+#elements-content .webkit-javascript-regexp {
+  color: #D39745 !important;
+}
