@@ -9,7 +9,7 @@ Choose your format:
 - [JetBrains Web IDE](https://github.com/mekwall/obsidian-color-scheme/raw/master/webide/Obsidian_Color_Scheme.jar) (PhpStorm, WebStorm, PyCharm etc.)
 - [Textmate and Sublime Text 1/2](https://github.com/mekwall/obsidian-color-scheme/raw/master/textmate/Obsidian.tmTheme)
 - [iTerm2](https://github.com/mekwall/obsidian-color-scheme/raw/master/iterm2/obsidian.itermcolors)
-- [Chrome Developer Tools](https://github.com/mekwall/obsidian-color-scheme/raw/master/chromedevtools/custom.css)
+- [Chrome Developer Tools](https://github.com/mekwall/obsidian-color-scheme/raw/master/chromedevtools/Custom.css)
 
 ## Screenshots
 
