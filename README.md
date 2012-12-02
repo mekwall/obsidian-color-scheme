@@ -31,7 +31,7 @@ To add a color scheme to your Chrome Developer Tools / Web Inspector, simply rep
 `~/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css`
 
 #### Windows
-`C:Users\YourUsername\AppData\Local\Google|Chrome\User Data\Default\User StyleSheets\Custom.css`
+`C:Users\YourUsername\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css`
 
 #### Ubuntu (Chromium)
 `~/.config/chromium/Default/User StyleSheets/Custom.css`
