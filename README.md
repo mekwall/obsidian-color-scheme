@@ -20,8 +20,21 @@ Note: Just to be safe, export your current IDE settings through «File» - «Exp
 1. Go to «File» - «Import settings»
 2. Browse for the «Obsidian_Color_Scheme.jar» you got from this repo
 3. Import the selected settings («Color schemes»)
-4. A restart of WebStorm is required, but once you're done, see 5
+4. A restart of WebIDE is required, but once you're done, see 5
 5. Bask in the glory of Obsidian in your WebIDE!
+
+### Chrome Developer Tools / Web Inspector
+
+To add a color scheme to your Chrome Developer Tools / Web Inspector, simply replace the CSS file in the locations listed below
+
+#### Mac:
+`~/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css`
+
+#### Windows
+`C:Users\YourUsername\AppData\Local\Google|Chrome\User Data\Default\User StyleSheets\Custom.css`
+
+#### Ubuntu (Chromium)
+`~/.config/chromium/Default/User StyleSheets/Custom.css`
 
 ## Screenshots
 
