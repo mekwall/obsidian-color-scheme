@@ -23,6 +23,14 @@ Note: Just to be safe, export your current IDE settings through «File» - «Exp
 4. A restart of WebIDE is required, but once you're done, see 5
 5. Bask in the glory of Obsidian in your WebIDE!
 
+### Sublime Text 2
+
+It's in the [Sublime Package Control](http://wbond.net/sublime_packages/package_control) repository.
+
+1. Open the Command Palette and execute: `Package Control: Install Package`
+2. Search for the package `Obsidian Color Scheme`
+3. Install package and then select the color scheme under «Preferences» - «Color Scheme»
+
 ### Chrome Developer Tools / Web Inspector
 
 To add a color scheme to your Chrome Developer Tools / Web Inspector, simply replace the CSS file in the locations listed below
