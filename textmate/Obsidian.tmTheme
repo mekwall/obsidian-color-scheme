@@ -615,6 +615,120 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Sass: at-rules</string>
+            <key>scope</key>
+            <string>keyword.control.at-rule.sass, keyword.control.at-rule.import.scss, keyword.control.at-rule.mixin.scss, keyword.control.at-rule.include.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A082BD</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sass: Mixin</string>
+            <key>scope</key>
+            <string>entity.name.function.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#93C763</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sass: URL</string>
+            <key>scope</key>
+            <string>variable.parameter.url</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E1E2CF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sass: ID</string>
+            <key>scope</key>
+            <string>entity.other.attribute-name.id.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string/>
+                <key>foreground</key>
+                <string>#D5AB55</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sass: Class</string>
+            <key>scope</key>
+            <string>entity.other.attribute-name.class.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string/>
+                <key>foreground</key>
+                <string>#93C763</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sass: Tag</string>
+            <key>scope</key>
+            <string>keyword.control.untitled, entity.name.tag.sass, entity.name.tag.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#B3B689</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sass: Property</string>
+            <key>scope</key>
+            <string>support.type.property-name.sass, meta.property-name.sass, meta.property-name.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#678CB1</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sass: Colors</string>
+            <key>scope</key>
+            <string>constant.other.color.rgb-value.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#93C763</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sass: Unit</string>
+            <key>scope</key>
+            <string>constant.other.unit.sass, keyword.other.unit.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E0E2E4</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sass: Punctuation</string>
+            <key>scope</key>
+            <string>punctuation.scss, punctuation.separator.key-value.scss, punctuation.section.function.scss, punctuation.section.property-list.begin.scss, punctuation.section.property-list.end.scss, keyword.other.important.scss, punctuation.terminator.rule.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#96979A</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>HTML/XML: String</string>
             <key>scope</key>
             <string>string.quoted.double.html, string.quoted.single.html, string.quoted.double.xml, string.quoted.single.xml</string>
