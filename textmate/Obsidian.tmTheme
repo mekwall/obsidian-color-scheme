@@ -729,6 +729,17 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Sass: Variable</string>
+            <key>scope</key>
+            <string>variable.scss, variable.parameter.sass</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ce6767</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>HTML/XML: String</string>
             <key>scope</key>
             <string>string.quoted.double.html, string.quoted.single.html, string.quoted.double.xml, string.quoted.single.xml</string>
