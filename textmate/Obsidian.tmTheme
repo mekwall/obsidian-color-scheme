@@ -926,6 +926,78 @@
                 <string>#93c763</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown heading</string>
+            <key>scope</key>
+            <string>markup.heading.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#334658</string>
+                <key>foreground</key>
+                <string>#72AACA</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown inline code</string>
+            <key>scope</key>
+            <string>markup.raw.inline.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#93c763</string>
+                <key>background</key>
+                <string>#384c26</string>
+                <key>border</key>
+                <string>#ff9900</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown link url</string>
+            <key>scope</key>
+            <string>markup.underline.link.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#93c763</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown numbered list</string>
+            <key>scope</key>
+            <string>markup.list.numbered.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFCD22</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown unnumbered list</string>
+            <key>scope</key>
+            <string>markup.list.unnumbered.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#678CB1</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown quote</string>
+            <key>scope</key>
+            <string>markup.quote.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#72AACA</string>
+            </dict>
+        </dict>
     </array>
     <key>uuid</key>
     <string>70442A54-7505-46E2-AAD8-44691BBC53DF</string>
