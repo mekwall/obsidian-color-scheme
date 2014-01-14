@@ -691,7 +691,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#678CB1</string>
+                <string>#a7a8ab</string>
             </dict>
         </dict>
         <dict>
@@ -702,7 +702,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#93C763</string>
+                <string>#ffffff</string>
             </dict>
         </dict>
         <dict>
@@ -720,11 +720,22 @@
             <key>name</key>
             <string>Sass: Punctuation</string>
             <key>scope</key>
-            <string>punctuation.scss, punctuation.separator.key-value.scss, punctuation.section.function.scss, punctuation.section.property-list.begin.scss, punctuation.section.property-list.end.scss, keyword.other.important.scss, punctuation.terminator.rule.scss</string>
+            <string>punctuation.scss, punctuation.separator.key-value.scss, punctuation.section.function.scss, punctuation.section.property-list.begin.scss, punctuation.section.property-list.end.scss, punctuation.terminator.rule.scss</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#96979A</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sass: !important</string>
+            <key>scope</key>
+            <string>keyword.other.important.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#93C763</string>
             </dict>
         </dict>
         <dict>
@@ -735,7 +746,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ce6767</string>
+                <string>#678CB1</string>
             </dict>
         </dict>
         <dict>
