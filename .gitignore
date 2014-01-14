@@ -1,2 +1,4 @@
 # Ignore tmTheme Cache
 *.tmTheme.cache
+
+*.ds_store
