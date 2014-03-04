@@ -1,78 +1,116 @@
+/* LESS Variables */
+@background: #3F4B4E;
+@white: #ffffff;
+
+@alpha: #E0E2E4;
+@bravo: #404E51;
+@charlie: #66747B;
+@delta: #EC7600;
+@echo: #FFCD22;
+@foxtrot: #93C763;
+@golf: #678CB1;
+@hotel: #8CBBAD;
+@india: #81969A;
+@juliet: #293134;
+@kilo: #B3B689;
+@lima: #D955C1;
+@mike: #96989A;
+@november: #96979A;
+@oscar: #E8E2B7;
+@papa: #AFC0E5;
+@quebec: #78D023;
+@romeo: #DA4236;
+@sierra: #262C2F;
+@tango: #A082BD;
+@uniform: #D5AB55;
+@victor: #9CB4AA;
+@whiskey: #a7a8ab;
+@xray: #E1E2CF;
+@yankee: #557182;
+@zulu: #72AACA;
+
+@nulla: #334658;
+@unum: #384c26;
+@duo: #252C30;
+@tria: #D39745;
+@quattuor: #F8F8F8;
+
+/* ----- */
 .editor, .editor .gutter {
-  background-color: #3F4B4E;
-  color: #81969A;
+  background-color:@background;
+  color: @india;
 }
 
 .editor.is-focused .cursor {
-  border-color: #E0E2E4;
+  border-color: @alpha;
 }
 
 .editor.is-focused .selection .region {
-  background-color: #404E51;
+  background-color: @bravo;
 }
 
 .editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
-  background-color: #293134;
+  background-color: @juliet;
 }
 
 .text {
-  color: #E0E2E4;
+  color: @alpha;
 }
 
 .source {
-  color: #E0E2E4;
+  color: @alpha;
 }
 
 .comment {
-  color: #66747B;
+  color: @charlie;
 }
 
 .comment.block {
   font-style: italic;
-  color: #66747B;
+  color: @charlie;
 }
 
 .comment.documentation {
-  color: #66747B;
+  color: @charlie;
 }
 
 .string {
-  color: #EC7600;
+  color: @delta;
 }
 
 .constant.numeric {
-  color: #FFCD22;
+  color: @echo;
 }
 
 .constant.language {
   font-weight: bold;
-  color: #93C763;
+  color: @foxtrot;
 }
 
 .constant.character, .constant.other {
 }
 
 .variable.language, .variable.other {
-  color: #678CB1;
+  color: @golf;
 }
 
 .variable.language.js {
   font-weight: bold;
-  color: #93C763;
+  color: @foxtrot;
 }
 
 .keyword {
   font-weight: bold;
-  color: #93C763;
+  color: @foxtrot;
 }
 
 .keyword.operator {
-  color: #E0E2E4;
+  color: @alpha;
 }
 
 .storage {
   font-weight: bold;
-  color: #93C763;
+  color: @foxtrot;
 }
 
 .entity.name.class {
@@ -83,7 +121,7 @@
 
 .entity.name.function {
   font-weight: bold;
-  color: #678CB1;
+  color: @golf;
 }
 
 .variable.parameter {
@@ -91,12 +129,12 @@
 
 .entity.name.tag {
   font-weight: bold;
-  color: #8CBBAD;
+  color: @hotel;
 }
 
 .entity.other.attribute-name {
   font-weight: bold;
-  color: #B3B689;
+  color: @kilo;
 }
 
 .support.function {
@@ -116,240 +154,240 @@
 
 .punctuation.section.embedded {
   font-weight: bold;
-  color: #D955C1;
+  color: @lima;
 }
 
 .keyword.operator.class {
-  color: #96989A;
+  color: @mike;
 }
 
 .meta.delimiter {
-  color: #96979A;
+  color: @november;
 }
 
 .meta.brace {
-  color: #E8E2B7;
+  color: @oscar;
 }
 
 .meta.brace.curly {
-  color: #96979A;
+  color: @november;
 }
 
 .source.js.embedded {
-  background-color: #262C2F;
+  background-color: @sierra;
 }
 
 .variable.language.js {
   font-weight: bold;
-  color: #93C763;
+  color: @foxtrot;
 }
 
 .entity.name.function.js {
-  color: #E0E2E4;
+  color: @alpha;
 }
 
 .entity.name.type.instance.js {
   font-weight: bold;
-  color: #AFC0E5;
+  color: @papa;
 }
 
 .support.class.js {
-  color: #78D023;
+  color: @quebec;
 }
 
 .storage.modifier.js {
-  color: #78D023;
+  color: @quebec;
 }
 
 .support.constant.js, .support.constant.dom.js {
-  color: #78D023;
+  color: @quebec;
 }
 
 .keyword.operator.js, .punctuation.terminator.statement.js {
-  color: #E0E2E4;
+  color: @alpha;
 }
 
 .entity.name.type.object.js.firebug, .keyword.other.js {
-  color: #DA4236;
+  color: @romeo;
 }
 
 .source.css.embedded {
-  color: #E0E2E4;
-  background-color: #262C2F;
+  color: @alpha;
+  background-color: @sierra;
 }
 
 .keyword.control.at-rule.import.css {
-  color: #A082BD;
+  color: @tango;
 }
 
 .entity.other.attribute-name.class.css {
-  color: #93C763;
+  color: @foxtrot;
 }
 
 .entity.name.tag.css {
-  color: #B3B689;
+  color: @kilo;
 }
 
 .support.type.property-name.css, .meta.property-name.css {
-  color: #678CB1;
+  color: @golf;
 }
 
 .keyword.other.unit.css {
-  color: #E0E2E4;
+  color: @alpha;
 }
 
 .variable.parameter.misc.css {
-  color: #EC7600;
+  color: @delta;
 }
 
 .entity.other.attribute-name.id.css {
-  color: #D5AB55;
+  color: @uniform;
 }
 
 .punctuation.definition.entity.css {
-  color: #9CB4AA;
+  color: @victor;
 }
 
 .keyword.control.at-rule.sass, .keyword.control.at-rule.import.scss, .keyword.control.at-rule.mixin.scss, .keyword.control.at-rule.include.scss {
-  color: #A082BD;
+  color: @tango;
 }
 
 .entity.name.function.scss {
-  color: #93C763;
+  color: @foxtrot;
 }
 
 .variable.parameter.url {
-  color: #E1E2CF;
+  color: @xray;
 }
 
 .entity.other.attribute-name.id.sass {
-  color: #D5AB55;
+  color: @uniform;
 }
 
 .entity.other.attribute-name.class.sass {
-  color: #93C763;
+  color: @foxtrot;
 }
 
 .keyword.control.untitled, .entity.name.tag.sass, .entity.name.tag.scss {
-  color: #B3B689;
+  color: @kilo;
 }
 
 .support.type.property-name.sass, .meta.property-name.sass, .meta.property-name.scss {
-  color: #a7a8ab;
+  color: @whiskey;
 }
 
 .constant.other.color.rgb-value.scss {
-  color: #ffffff;
+  color: @white;
 }
 
 .constant.other.unit.sass, .keyword.other.unit.scss {
-  color: #E0E2E4;
+  color: @alpha;
 }
 
 .punctuation.scss, .punctuation.separator.key-value.scss, .punctuation.section.function.scss, .punctuation.section.property-list.begin.scss, .punctuation.section.property-list.end.scss, .punctuation.terminator.rule.scss {
-  color: #96979A;
+  color: @november;
 }
 
 .keyword.other.important.scss {
-  color: #93C763;
+  color: @foxtrot;
 }
 
 .variable.scss, .variable.parameter.sass {
-  color: #678CB1;
+  color: @golf;
 }
 
 .string.quoted.double.html, .string.quoted.single.html, .string.quoted.double.xml, .string.quoted.single.xml {
-  color: #E1E2CF;
+  color: @xray;
 }
 
 .punctuation.definition.tag.begin.html, .punctuation.definition.tag.end.html, .punctuation.definition.tag.html, .punctuation.definition.tag.begin.xml, .punctuation.definition.tag.end.xml, .punctuation.definition.tag.xml, .meta.tag.no-content {
-  color: #557182;
+  color: @yankee;
 }
 
 .entity.name.tag.xml, .entity.name.tag.localname.xml {
   font-weight: bold;
-  color: #678CB1;
+  color: @golf;
 }
 
 .meta.tag.preprocessor.xml .punctuation.definition.tag.xml {
-  color: #557182;
+  color: @yankee;
 }
 
 .constant.other.name.xml, .string.quoted.other.xml {
-  color: #E0E2E4;
+  color: @alpha;
 }
 
 .meta.tag.sgml.doctype {
-  color: #557182;
+  color: @yankee;
 }
 
 .meta.tag.sgml.doctype .variable.documentroot.xml, .meta.tag.sgml.doctype.html {
-  color: #D5AB55;
+  color: @uniform;
 }
 
 .keyword.doctype, .entity.name.tag.doctype {
-  color: #557182;
+  color: @yankee;
 }
 
 .variable.documentroot {
-  color: #E0E2E4;
+  color: @alpha;
 }
 
 .source.php.embedded {
-  background-color: #252C30;
+  background-color: @duo;
 }
 
 .support.function.construct.php {
-  color: #93C763;
+  color: @foxtrot;
 }
 
 .constant.other.php {
-  color: #D39745;
+  color: @tria;
 }
 
 .keyword.operator.string.php, .keyword.operator.class.php, .keyword.operator.comparison.php, .punctuation.definition.array.begin.php, .punctuation.definition.array.end.php, .punctuation.terminator.expression.php {
-  color: #E8E2B7;
+  color: @oscar;
 }
 
 .meta.diff, .meta.diff.header {
-  color: #F8F8F8;
-  background-color: #404E51;
+  color: @quattuor;
+  background-color: @bravo;
 }
 
 .markup.deleted {
-  color: #DA4236;
+  color: @romeo;
 }
 
 .markup.changed {
-  color: #72AACA;
+  color: @zulu;
 }
 
 .markup.inserted {
-  color: #93c763;
+  color: @foxtrot;
 }
 
 .markup.heading.markdown {
-  color: #72AACA;
-  background-color: #334658;
+  color: @zulu;
+  background-color: @nulla;
 }
 
 .markup.raw.inline.markdown {
-  color: #93c763;
-  background-color: #384c26;
+  color: @foxtrot;
+  background-color: @unum;
 }
 
 .markup.underline.link.markdown {
-  color: #93c763;
+  color: @foxtrot;
 }
 
 .markup.list.numbered.markdown {
-  color: #FFCD22;
+  color: @echo;
 }
 
 .markup.list.unnumbered.markdown {
-  color: #678CB1;
+  color: @golf;
 }
 
 .markup.quote.markdown {
-  color: #72AACA;
+  color: @zulu;
 }
