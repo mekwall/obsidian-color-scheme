@@ -10,6 +10,7 @@ Choose your format:
 - [Textmate and Sublime Text 1/2](https://github.com/mekwall/obsidian-color-scheme/raw/master/textmate/Obsidian.tmTheme)
 - [iTerm2](https://github.com/mekwall/obsidian-color-scheme/raw/master/iterm2/obsidian.itermcolors)
 - [Chrome Developer Tools](https://github.com/mekwall/obsidian-color-scheme/raw/master/chromedevtools/Custom.css)
+- [Atom](https://github.com/cliftonite/obsidian-color-scheme/tree/master/atom)
 
 ## Installation instructions
 
@@ -43,6 +44,9 @@ To add a color scheme to your Chrome Developer Tools / Web Inspector, simply rep
 
 #### Ubuntu (Chromium)
 `~/.config/chromium/Default/User StyleSheets/Custom.css`
+
+### Atom
+Download the `obsidian-syntax` folder to ~/.atom/packages then select **Obsidian** as your theme in Atom's settings.
 
 ## Screenshots
 

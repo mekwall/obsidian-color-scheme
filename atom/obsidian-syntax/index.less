@@ -1,0 +1,393 @@
+/* LESS Variables */
+@background: #3F4B4E;
+@white: #ffffff;
+
+@alpha: #E0E2E4;
+@bravo: #404E51;
+@charlie: #66747B;
+@delta: #EC7600;
+@echo: #FFCD22;
+@foxtrot: #93C763;
+@golf: #678CB1;
+@hotel: #8CBBAD;
+@india: #81969A;
+@juliet: #293134;
+@kilo: #B3B689;
+@lima: #D955C1;
+@mike: #96989A;
+@november: #96979A;
+@oscar: #E8E2B7;
+@papa: #AFC0E5;
+@quebec: #78D023;
+@romeo: #DA4236;
+@sierra: #262C2F;
+@tango: #A082BD;
+@uniform: #D5AB55;
+@victor: #9CB4AA;
+@whiskey: #a7a8ab;
+@xray: #E1E2CF;
+@yankee: #557182;
+@zulu: #72AACA;
+
+@nulla: #334658;
+@unum: #384c26;
+@duo: #252C30;
+@tria: #D39745;
+@quattuor: #F8F8F8;
+
+/* ----- */
+.editor, .editor .gutter {
+  background-color:@background;
+  color: @india;
+}
+
+.editor.is-focused .cursor {
+  border-color: @alpha;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @bravo;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: @juliet;
+}
+
+.text {
+  color: @alpha;
+}
+
+.source {
+  color: @alpha;
+}
+
+.comment {
+  color: @charlie;
+}
+
+.comment.block {
+  font-style: italic;
+  color: @charlie;
+}
+
+.comment.documentation {
+  color: @charlie;
+}
+
+.string {
+  color: @delta;
+}
+
+.constant.numeric {
+  color: @echo;
+}
+
+.constant.language {
+  font-weight: bold;
+  color: @foxtrot;
+}
+
+.constant.character, .constant.other {
+}
+
+.variable.language, .variable.other {
+  color: @golf;
+}
+
+.variable.language.js {
+  font-weight: bold;
+  color: @foxtrot;
+}
+
+.keyword {
+  font-weight: bold;
+  color: @foxtrot;
+}
+
+.keyword.operator {
+  color: @alpha;
+}
+
+.storage {
+  font-weight: bold;
+  color: @foxtrot;
+}
+
+.entity.name.class {
+}
+
+.entity.other.inherited-class {
+}
+
+.entity.name.function {
+  font-weight: bold;
+  color: @golf;
+}
+
+.variable.parameter {
+}
+
+.entity.name.tag {
+  font-weight: bold;
+  color: @hotel;
+}
+
+.entity.other.attribute-name {
+  font-weight: bold;
+  color: @kilo;
+}
+
+.support.function {
+}
+
+.support.constant {
+}
+
+.support.type, .support.class {
+}
+
+.support.other.variable {
+}
+
+.invalid {
+}
+
+.punctuation.section.embedded {
+  font-weight: bold;
+  color: @lima;
+}
+
+.keyword.operator.class {
+  color: @mike;
+}
+
+.meta.delimiter {
+  color: @november;
+}
+
+.meta.brace {
+  color: @oscar;
+}
+
+.meta.brace.curly {
+  color: @november;
+}
+
+.source.js.embedded {
+  background-color: @sierra;
+}
+
+.variable.language.js {
+  font-weight: bold;
+  color: @foxtrot;
+}
+
+.entity.name.function.js {
+  color: @alpha;
+}
+
+.entity.name.type.instance.js {
+  font-weight: bold;
+  color: @papa;
+}
+
+.support.class.js {
+  color: @quebec;
+}
+
+.storage.modifier.js {
+  color: @quebec;
+}
+
+.support.constant.js, .support.constant.dom.js {
+  color: @quebec;
+}
+
+.keyword.operator.js, .punctuation.terminator.statement.js {
+  color: @alpha;
+}
+
+.entity.name.type.object.js.firebug, .keyword.other.js {
+  color: @romeo;
+}
+
+.source.css.embedded {
+  color: @alpha;
+  background-color: @sierra;
+}
+
+.keyword.control.at-rule.import.css {
+  color: @tango;
+}
+
+.entity.other.attribute-name.class.css {
+  color: @foxtrot;
+}
+
+.entity.name.tag.css {
+  color: @kilo;
+}
+
+.support.type.property-name.css, .meta.property-name.css {
+  color: @golf;
+}
+
+.keyword.other.unit.css {
+  color: @alpha;
+}
+
+.variable.parameter.misc.css {
+  color: @delta;
+}
+
+.entity.other.attribute-name.id.css {
+  color: @uniform;
+}
+
+.punctuation.definition.entity.css {
+  color: @victor;
+}
+
+.keyword.control.at-rule.sass, .keyword.control.at-rule.import.scss, .keyword.control.at-rule.mixin.scss, .keyword.control.at-rule.include.scss {
+  color: @tango;
+}
+
+.entity.name.function.scss {
+  color: @foxtrot;
+}
+
+.variable.parameter.url {
+  color: @xray;
+}
+
+.entity.other.attribute-name.id.sass {
+  color: @uniform;
+}
+
+.entity.other.attribute-name.class.sass {
+  color: @foxtrot;
+}
+
+.keyword.control.untitled, .entity.name.tag.sass, .entity.name.tag.scss {
+  color: @kilo;
+}
+
+.support.type.property-name.sass, .meta.property-name.sass, .meta.property-name.scss {
+  color: @whiskey;
+}
+
+.constant.other.color.rgb-value.scss {
+  color: @white;
+}
+
+.constant.other.unit.sass, .keyword.other.unit.scss {
+  color: @alpha;
+}
+
+.punctuation.scss, .punctuation.separator.key-value.scss, .punctuation.section.function.scss, .punctuation.section.property-list.begin.scss, .punctuation.section.property-list.end.scss, .punctuation.terminator.rule.scss {
+  color: @november;
+}
+
+.keyword.other.important.scss {
+  color: @foxtrot;
+}
+
+.variable.scss, .variable.parameter.sass {
+  color: @golf;
+}
+
+.string.quoted.double.html, .string.quoted.single.html, .string.quoted.double.xml, .string.quoted.single.xml {
+  color: @xray;
+}
+
+.punctuation.definition.tag.begin.html, .punctuation.definition.tag.end.html, .punctuation.definition.tag.html, .punctuation.definition.tag.begin.xml, .punctuation.definition.tag.end.xml, .punctuation.definition.tag.xml, .meta.tag.no-content {
+  color: @yankee;
+}
+
+.entity.name.tag.xml, .entity.name.tag.localname.xml {
+  font-weight: bold;
+  color: @golf;
+}
+
+.meta.tag.preprocessor.xml .punctuation.definition.tag.xml {
+  color: @yankee;
+}
+
+.constant.other.name.xml, .string.quoted.other.xml {
+  color: @alpha;
+}
+
+.meta.tag.sgml.doctype {
+  color: @yankee;
+}
+
+.meta.tag.sgml.doctype .variable.documentroot.xml, .meta.tag.sgml.doctype.html {
+  color: @uniform;
+}
+
+.keyword.doctype, .entity.name.tag.doctype {
+  color: @yankee;
+}
+
+.variable.documentroot {
+  color: @alpha;
+}
+
+.source.php.embedded {
+  background-color: @duo;
+}
+
+.support.function.construct.php {
+  color: @foxtrot;
+}
+
+.constant.other.php {
+  color: @tria;
+}
+
+.keyword.operator.string.php, .keyword.operator.class.php, .keyword.operator.comparison.php, .punctuation.definition.array.begin.php, .punctuation.definition.array.end.php, .punctuation.terminator.expression.php {
+  color: @oscar;
+}
+
+.meta.diff, .meta.diff.header {
+  color: @quattuor;
+  background-color: @bravo;
+}
+
+.markup.deleted {
+  color: @romeo;
+}
+
+.markup.changed {
+  color: @zulu;
+}
+
+.markup.inserted {
+  color: @foxtrot;
+}
+
+.markup.heading.markdown {
+  color: @zulu;
+  background-color: @nulla;
+}
+
+.markup.raw.inline.markdown {
+  color: @foxtrot;
+  background-color: @unum;
+}
+
+.markup.underline.link.markdown {
+  color: @foxtrot;
+}
+
+.markup.list.numbered.markdown {
+  color: @echo;
+}
+
+.markup.list.unnumbered.markdown {
+  color: @golf;
+}
+
+.markup.quote.markdown {
+  color: @zulu;
+}

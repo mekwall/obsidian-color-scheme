@@ -1,0 +1,12 @@
+{
+  "name": "obsidian-syntax",
+  "theme": "syntax",
+  "version": "0.0.3",
+  "private": false,
+  "description": "The Obsidian syntax theme ported to Atom",
+  "repository": "https://github.com/cliftonite/obsidian-color-scheme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
