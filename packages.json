@@ -1,12 +1,12 @@
 {
-	"schema_version": "1.2",
+	"schema_version": "2.0",
 	"packages": [
 		{
 			"name": "Obsidian Color Scheme",
 			"description": "Port of the Notepad++ color scheme Obsidian for Sublime Text 2",
 			"author": "Marcus Ekwall <marcus.ekwall@gmail.com>",
 			"homepage": "https://github.com/mekwall/obsidian-color-scheme",
-			"last_modified": "2012-09-09 08:36:42",
+			"last_modified": "2014-04-19 09:27:40",
 			"platforms": {
 				"*": [
 					{
