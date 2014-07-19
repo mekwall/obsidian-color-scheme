@@ -3,18 +3,15 @@
 	"packages": [
 		{
 			"name": "Obsidian Color Scheme",
-			"description": "Port of the Notepad++ color scheme Obsidian for Sublime Text 2",
+			"description": "Port of the Notepad++ color scheme Obsidian for Sublime Text",
 			"author": "Marcus Ekwall <marcus.ekwall@gmail.com>",
-			"homepage": "https://github.com/mekwall/obsidian-color-scheme",
-			"last_modified": "2014-04-19 09:27:40",
-			"platforms": {
-				"*": [
-					{
-						"version": "1.0.0",
-						"url": "http://cloud.github.com/downloads/mekwall/obsidian-color-scheme/obsidian-color-scheme-sublime.zip"
-					}
-				]
-			}
+			"releases": [
+				{
+					"date": "2014-04-19 09:27:40",
+					"version": "1.0.0",
+					"url": "http://cloud.github.com/downloads/mekwall/obsidian-color-scheme/obsidian-color-scheme-sublime.zip"
+				}
+			]
 		}
 	]
 }
