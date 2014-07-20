@@ -7,7 +7,7 @@ Ports of the Notepad++ color scheme Obsidian.
 Choose your format:
 
 - [JetBrains Web IDE](https://github.com/mekwall/obsidian-color-scheme/raw/master/webide/Obsidian_Color_Scheme.jar) (PhpStorm, WebStorm, PyCharm etc.)
-- [Textmate and Sublime Text 2 and 3](https://github.com/mekwall/obsidian-color-scheme/raw/master/textmate/Obsidian.tmTheme)
+- [Textmate and Sublime Text 2 and 3](https://github.com/mekwall/obsidian-color-scheme/raw/master/textmate/Obsidian.tmTheme) (Can be installed through wbond's awesome [Package Control](https://sublime.wbond.net/))
 - [iTerm2](https://github.com/mekwall/obsidian-color-scheme/raw/master/iterm2/obsidian.itermcolors)
 - [Chrome Developer Tools](https://github.com/mekwall/obsidian-color-scheme/raw/master/chromedevtools/Custom.css)
 - [Atom](https://github.com/mekwall/obsidian-color-scheme/tree/master/atom)
