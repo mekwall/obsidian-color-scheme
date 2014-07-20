@@ -6,15 +6,14 @@
 			"description": "Port of the Notepad++ color scheme Obsidian for Sublime Text 2",
 			"author": "Marcus Ekwall <marcus.ekwall@gmail.com>",
 			"homepage": "https://github.com/mekwall/obsidian-color-scheme",
-			"last_modified": "2014-04-19 09:27:40",
-			"platforms": {
-				"*": [
-					{
-						"version": "1.0.0",
-						"url": "http://cloud.github.com/downloads/mekwall/obsidian-color-scheme/obsidian-color-scheme-sublime.zip"
-					}
-				]
-			}
+			"details": "https://github.com/mekwall/obsidian-color-scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/mekwall/obsidian-color-scheme/tags"
+				}
+			]
 		}
 	]
 }
