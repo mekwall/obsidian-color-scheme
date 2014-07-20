@@ -3,9 +3,7 @@
 	"packages": [
 		{
 			"name": "Obsidian Color Scheme",
-			"description": "Port of the Notepad++ color scheme Obsidian for Sublime Text 2",
 			"author": "Marcus Ekwall <marcus.ekwall@gmail.com>",
-			"homepage": "https://github.com/mekwall/obsidian-color-scheme",
 			"details": "https://github.com/mekwall/obsidian-color-scheme",
 			"labels": ["color scheme"],
 			"releases": [
