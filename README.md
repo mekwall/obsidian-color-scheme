@@ -24,7 +24,7 @@ Note: Just to be safe, export your current IDE settings through «File» - «Exp
 4. A restart of WebIDE is required, but once you're done, see 5
 5. Bask in the glory of Obsidian in your WebIDE!
 
-### Sublime Text 2
+### Sublime Text 2 / 3
 
 It's in the [Sublime Package Control](http://wbond.net/sublime_packages/package_control) repository.
 
